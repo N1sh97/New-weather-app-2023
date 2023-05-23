@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Monoton&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/7cf05edf79.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="wrapping">
+      <div class="container">
+        <h1>Weather</h1>
+        <br />
+        <form id="search-form">
+          <div class="row">
+            <div class="col-8">
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Search for weather in..."
+                autofocus="on"
+                id="submit-now"
+              />
+              <br />
+              <input type="submit" class="form-control" />
+              <br />
+              <button
+                class="btn btn-success w-100"
+                id="current-location-button"
+              >
+                Current Location
+              </button>
+            </div>
+          </div>
+        </form>
+        <br />
+        <h2 id="city">Weather in London</h2>
+        <h3>Tuesday 24 April 2023, 19:55</h3>
+        <br />
+        <div class="row">
+          <div class="col-3">
+            <span class="temperature" id="temperature">19</span
+            ><span class="units">
+              <a href="#" id="celsius-link" class="active">°C</a>
+              |
+              <a href="#" id="fahrenheit-link">°F</a>
+            </span>
+          </div>
+          <div class="col-3">
+            <br />
+            <br />
+            <br />
+            <div class="list">
+              <ul>
+                <li>Humidity:<span id="humidity"> 77</span>%</li>
+                <li>Wind: <span id="wind"> 23</span> mph</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="weather-forecast text-center" id="forecast"></div>
+      </div>
+    </div>
+    <p1>
+      <a href="#">Open-Source coded by Nish Begum</a>
+    </p1>
+    <script src="app.js"></script>
+  </body>
+</html>
