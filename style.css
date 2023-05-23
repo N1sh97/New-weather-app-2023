@@ -79,3 +79,9 @@ a:link {
   color: #000;
 }
 
+.gitLink {
+  padding-left: 470px;
+  font-family: "Merriweather", serif;
+  color: black;
+  font: 10px;
+}
