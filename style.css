@@ -57,13 +57,13 @@ a:link {
 
 .weather-forecast-date {
   font-family: "Merriweather", serif;
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
   color: #000;
 }
 
 .weather-forecast-date {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .weather-forecast-temperature-min {
