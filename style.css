@@ -80,8 +80,24 @@ a:link {
 }
 
 .gitLink {
-  padding-left: 470px;
   font-family: "Merriweather", serif;
   color: black;
   font: 10px;
+}
+#current-location-button {
+  background-color: #096386;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+
+#submit1 {
+  background-color: #096386;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+#submit-now {
+  background-color: #f0f9f5;
+  color: grey;
 }
