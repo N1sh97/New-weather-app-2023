@@ -84,6 +84,7 @@ function getForecast(coordinates) {
 }
 
 function displayCurrentemp(response) {
+  celsiusTemperature = Math.round(response.data.temperature.current);
   document.querySelector("#city").innerHTML = response.data.city;
   document.querySelector("#temperature").innerHTML = Math.round(
     response.data.temperature.current
