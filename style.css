@@ -1,7 +1,7 @@
 body {
   padding-top: 100px;
   padding-bottom: 50px;
-  background-image: url(https://cdn.dribbble.com/users/1108089/screenshots/2955959/dribbble.gif);
+  background-image: url(https://cdn.dribbble.com/users/1003944/screenshots/6941095/1.1.gif);
   background-size: cover;
 }
 
@@ -87,19 +87,21 @@ a:link {
   font: 5px;
 }
 #current-location-button {
-  background-color: #096386;
+  background-color: #430f58;
+  font-family: "Merriweather", serif;
   color: white;
   text-align: left;
   font-weight: bold;
 }
 
 #submit1 {
-  background-color: #096386;
+  background-color: #430f58;
+  font-family: "Merriweather", serif;
   color: white;
   text-align: left;
   font-weight: bold;
 }
 #submit-now {
-  background-color: #f0f9f5;
+  background-color: white;
   color: grey;
 }
