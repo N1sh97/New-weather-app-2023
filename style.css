@@ -1,5 +1,6 @@
 body {
   padding-top: 100px;
+  padding-bottom: 50px;
   background-image: url(https://cdn.dribbble.com/users/1108089/screenshots/2955959/dribbble.gif);
   background-size: cover;
 }
@@ -15,15 +16,16 @@ body {
   background-size: cover;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
 }
-
-h1 {
-  font-size: 50px;
+.container h1 {
+  font-size: 45px;
   font-family: "Merriweather", serif;
   padding-top: 70px;
 }
+.container h2 {
+  font-family: "Merriweather", serif;
+}
 
-h3 {
-  font-size: 5px;
+.container h3 {
   font-family: "Merriweather", serif;
 }
 
@@ -81,8 +83,8 @@ a:link {
 
 .gitLink {
   font-family: "Merriweather", serif;
-  color: black;
-  font: 10px;
+  font-weight: none;
+  font: 5px;
 }
 #current-location-button {
   background-color: #096386;
